@@ -1,6 +1,6 @@
 const express = require('express');
 const { resolve } = require('path');
-
+const config=require("./config");
 const app = express();
 const port = 3010;
 
